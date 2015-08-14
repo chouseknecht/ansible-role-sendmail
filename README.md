@@ -27,7 +27,7 @@ Construct the email message.
     sendmail_subject: "The upgrade process complete!"
     sendmail_body: {{ lookup('file','/tmp/email_body.txt') }} 
 
-Provide a path to a temporary file space the user running the playbook can write to. Defaults to `/tmp`.
+Provide a path to a temporary file space the user running the playbook can write to. Defaults to '/tmp'.
 
     sendmail_tmp: "/home/username"
 
@@ -35,7 +35,7 @@ Add any optional special headers
 
     sendmail_headers: "Reply-To=john@example.com|X-Special='Something or other'"
 
-Set the character set. Defaults to utf8.    
+Set the character set. Defaults to 'utf8'.    
 
     sendmail_charset: 'us-ascii'
 
