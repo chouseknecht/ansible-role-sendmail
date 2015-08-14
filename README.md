@@ -1,7 +1,7 @@
 Role Name
 =========
 
-Quick and easy way to send an email message from a Tower, Jenkins or a shell script.
+Quick and easy way to send an email message from a Tower, Jenkins or any job stream.
 
 Requirements
 ------------
