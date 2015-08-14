@@ -13,12 +13,14 @@ Role Variables
 All of the mail module parameters have been turned into variables.
 
 SMTP server connection.
+
     sendmail_host: smtp.google.com
     sendmail_port: 587
     sendmail_username: "email_address@gmail.com"
     sendmail_password: "password1!"
 
 Construct the email message.
+
     sendmail_to: "foo@companydomain.com"
     sendmail_cc: "bar@companydomain.com, baz@companydomain.com"
     sendmail_from: "admin@companydomain.com"
@@ -26,18 +28,23 @@ Construct the email message.
     sendmail_body: {{ lookup('file','/tmp/email_body.txt') }} 
 
 Provide a path to a temporary file space the user running the playbook can write to. Defaults to `/tmp`.
+
     sendmail_tmp: "/home/username"
 
 Add any optional special headers
+
     sendmail_headers: "Reply-To=john@example.com|X-Special='Something or other'"
 
 Set the character set. Defaults to utf8.    
+
     sendmail_charset: 'us-ascii'
 
 Set the type of message - text or html. Defaults to html.
+
     sendmail_subtype: html
 
 Provide an optional space separated list of file attachments.
+
     sendmail_attachments: "/etc/group /tmp/pavatar2.png"
 
 
