@@ -1,0 +1,18 @@
+---
+
+# email server config
+sendmail_host: ''
+sendmail_port: '' 
+sendmail_username: ''
+sendmail_password: ''
+sendmail_to: ''
+sendmail_subject: ''
+sendmail_body: ''
+sendmail_from: ''
+sendmail_to: ''
+sendmail_cc: ''
+sendmail_tmp: '/tmp'
+sendmail_attachments: ''
+sendmail_headers: ''
+sendmail_subtype: ''
+sendmail_charset: 'utf8'
