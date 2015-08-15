@@ -1,11 +1,11 @@
-Role Name
-=========
+Sendmail
+========
 
-Quick and easy way to send an email message from a Tower, Jenkins or any job stream.
+Quick and easy way to send an email message from Tower, Jenkins or any job stream.
 
 Requirements
 ------------
-Requirs v2 of the mail module. If you are not running v2 of ansible, you can install v2 of the mail module. Create a `library` directory in the path where you run playbooks, and download a copy of the [latest mail module](https://github.com/ansible/ansible-modules-extras/tree/devel/notification) to `library/mail.py`. 
+Requires v2 of the mail module. If you are not running v2 of ansible, you can install v2 of the mail module. Create a `library` directory in the path where you run playbooks, and download a copy of the [latest mail module](https://github.com/ansible/ansible-modules-extras/tree/devel/notification) to `library/mail.py`. 
 
 Role Variables
 --------------
@@ -75,6 +75,6 @@ MIT
 Author Information
 ------------------
 
-Thanks for checking out ansible-role-sendmail. Hopefully it makes sending email messages from your job streams super easy.
+Thanks for checking out the sendmail role. Hopefully it makes sending email messages from your job streams super easy.
 
 For questions, comments suggestions please open an issue here or add a review at [Ansible Galaxy](http://galaxy.ansible.com).
