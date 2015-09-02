@@ -78,3 +78,9 @@ Author Information
 Thanks for checking out the sendmail role. Hopefully it makes sending email messages from your job streams super easy.
 
 For questions, comments suggestions please open an issue here or add a review at [Ansible Galaxy](http://galaxy.ansible.com).
+
+### Authors and license
+
+`debops.grub` role was written by:
+- Patryk Ściborek | [e-mail](mailto:patryk@sciborek.com) | [GitHub](https://github.com/scibi)License: [GPLv3](https://tldrlegal.com/license/gnu-general-public-license-v3-%28gpl-3%29)
+
