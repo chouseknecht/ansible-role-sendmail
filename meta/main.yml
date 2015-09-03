@@ -19,4 +19,4 @@ galaxy_info:
   - baz
 
 dependencies:
-  - { role: chouseknecht.grunt } 
+  - { role: chouseknecht.grub } 
