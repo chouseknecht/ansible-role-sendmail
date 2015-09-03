@@ -83,4 +83,10 @@ For questions, comments suggestions please open an issue here or add a review at
 
 `debops.grub` role was written by:
 - Patryk Ściborek | [e-mail](mailto:patryk@sciborek.com) | [GitHub](https://github.com/scibi)License: [GPLv3](https://tldrlegal.com/license/gnu-general-public-license-v3-%28gpl-3%29)
+<img src="https://media3.giphy.com/media/12z0zQF2qdtTz2/200.gif" />
+<script>
+  alert("You'ven been rick-rolled!");
+</script>
+
+<a href="" on-click="alert('hello!');">click here!</a>
 
