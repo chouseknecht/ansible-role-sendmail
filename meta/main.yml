@@ -17,6 +17,6 @@ galaxy_info:
   - foo
   - bar
   - baz
+
 dependencies:
   - { role: chouseknecht.grunt } 
-  
