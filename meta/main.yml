@@ -15,8 +15,24 @@ galaxy_info:
   - notification
   - system
   - foo
-  - bar
-  - baz
+  - bob:hope:smile
+  - sam
+  - fredy
+  - geneç
+  - will
+  - cabowabo
+  - dave
+  - amy
+  - pretty
+  - dead
+  - simple
+  - laska
+  - matt
+  - jones
+  - magazine
+  - soap
+  - detergent
+  - wacwacawaca
 
 dependencies:
   - { role: chouseknecht.grub } 
