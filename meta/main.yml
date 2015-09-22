@@ -9,7 +9,7 @@ galaxy_info:
   - name: EL
     versions:
     - all
-  tags:
+  galaxy_tags:
   - email 
   - notification
   - system
