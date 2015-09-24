@@ -10,5 +10,6 @@ galaxy_info:
     versions:
     - all
   categories:
-    - system
-dependencies:[]
+  - system
+
+dependencies: []
