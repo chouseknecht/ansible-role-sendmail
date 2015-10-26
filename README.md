@@ -79,3 +79,5 @@ Thanks for checking out the sendmail role. Hopefully it makes sending email mess
 
 For questions, comments suggestions please open an issue here or add a review at [Ansible Galaxy](http://galaxy.ansible.com).
 
+{{ foo }}
+
