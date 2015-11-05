@@ -1,4 +1,4 @@
-https://travis-ci.org/chouseknecht/ansible-role-sendmail.svg?branch=master
+[![Build Status](https://travis-ci.org/chouseknecht/ansible-role-sendmail.svg?branch=master)](https://travis-ci.org/chouseknecht/ansible-role-sendmail)
 
 Sendmail
 ========
@@ -82,6 +82,6 @@ Thanks for checking out the sendmail role. Hopefully it makes sending email mess
 For questions, comments suggestions please open an issue.
 
 
-Chris Houseknecht
-Lead Galaxy Engineer
-Ansible, Inc.
+Chris Houseknecht  
+Lead Galaxy Engineer  
+Ansible, Inc.  
