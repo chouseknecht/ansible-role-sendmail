@@ -8,6 +8,10 @@ sudo: false
 # Install ansible
 addons:
   apt:
+    sources:
+    - ppa:ansible/ansible
+addons:
+  apt:
     packages:
     - ansible
 
