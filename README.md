@@ -1,3 +1,5 @@
+https://travis-ci.org/chouseknecht/ansible-role-sendmail.svg?branch=master
+
 Sendmail
 ========
 
@@ -81,7 +83,5 @@ For questions, comments suggestions please open an issue.
 
 
 Chris Houseknecht
-
 Lead Galaxy Engineer
-
 Ansible, Inc.
