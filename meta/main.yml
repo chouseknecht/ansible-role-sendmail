@@ -9,7 +9,11 @@ galaxy_info:
   - name: EL
     versions:
     - all
-  categories:
-  - system
+  galaxy_tags:
+  - sendmail
+  - email
+  - notify
+  - alert
+  - monitor
 
 dependencies: []

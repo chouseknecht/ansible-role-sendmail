@@ -77,7 +77,8 @@ Author Information
 
 Thanks for checking out the sendmail role. Hopefully it makes sending email messages from your job streams super easy.
 
-For questions, comments suggestions please open an issue here or add a review at [Ansible Galaxy](http://galaxy.ansible.com).
+For questions, comments suggestions please open an issue.
 
-{{ foo }}
-
+Chris Houseknecht
+Lead Galaxy Engineer
+Ansible, Inc.
