@@ -79,6 +79,9 @@ Thanks for checking out the sendmail role. Hopefully it makes sending email mess
 
 For questions, comments suggestions please open an issue.
 
+
 Chris Houseknecht
+
 Lead Galaxy Engineer
+
 Ansible, Inc.
