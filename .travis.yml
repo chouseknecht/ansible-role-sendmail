@@ -8,15 +8,18 @@ sudo: false
 # Install ansible
 addons:
   apt:
-    sources:
-    - ppa:ansible/ansible
     packages:
-    - ansible
+    - python-pip 
 
 install:
+  # Install ansible
+  - pip install ansible
+
+  # Check ansible version
+  - ansible --version
+
   # Create ansible.cfg with correct roles_path
   - printf '[defaults]\nroles_path=../' >ansible.cfg
-  - ansible --version
 
 script:
   # Basic role syntax check
