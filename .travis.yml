@@ -10,8 +10,6 @@ addons:
   apt:
     sources:
     - ppa:ansible/ansible
-addons:
-  apt:
     packages:
     - ansible
 
