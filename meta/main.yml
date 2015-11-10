@@ -5,10 +5,10 @@ galaxy_info:
   company: Ansible 
   #license: MIT
   #min_ansible_version: 1.9
-  platforms:
-  - name: EL
-    versions:
-    - all
+  platforms: foo
+  #- name: EL
+  #  versions:
+  # - all
   #galaxy_tags:
   #- sendmail
   #- email
@@ -16,4 +16,4 @@ galaxy_info:
   #- alert
   #- monitor
 
-# dependencies: []
+dependencies:
