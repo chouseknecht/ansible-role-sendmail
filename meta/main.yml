@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: chouseknecht
-  description:
+  description: Simple way to send an email notification message from any job stream.
   company: Ansible
   license: MIT
   min_ansible_version: 1.9
