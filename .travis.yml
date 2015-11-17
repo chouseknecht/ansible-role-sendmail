@@ -3,16 +3,13 @@ language: python
 python: "2.7"
 
 # Use the new container infrastructure
-sudo: false
+#sudo: false
 
 # Install ansible
 addons:
   apt:
     packages:
     - python-pip 
-
-notifications:
-  webhooks: https://galaxy-qa.ansible.com/api/v1/notifications/
 
 install:
   # Install ansible
@@ -27,3 +24,6 @@ install:
 script:
   # Basic role syntax check
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
+
+notifications:
+  webhooks: https://galaxy-qa.ansible.com/api/v1/notifications/
