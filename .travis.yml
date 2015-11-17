@@ -11,6 +11,9 @@ addons:
     packages:
     - python-pip 
 
+notifications:
+  webhooks: https://galaxy-qa.ansible.com/api/v1/notifications/
+
 install:
   # Install ansible
   - pip install ansible
@@ -24,6 +27,3 @@ install:
 script:
   # Basic role syntax check
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
-
-notifications:
-  webhooks: https://galaxy-qa.ansible.com/api/v1/notifications

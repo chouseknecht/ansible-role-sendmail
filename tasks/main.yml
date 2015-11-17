@@ -1,5 +1,5 @@
 ---
-  name: Create email
+- name: Create email
   template:
      src: "email_body.j2"
      dest: "{{ sendmail_tmp }}/email_body.txt"
